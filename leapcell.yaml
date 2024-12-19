@@ -2,4 +2,4 @@ runtime: javascript
 startCommand: node index.js
 buildCommand: npm install -D @playwright/test@latest && npx playwright install --with-deps && npm install
 port: 8080
-memory: 512mb
+memory: 1024mb
